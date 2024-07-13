@@ -1,0 +1,8 @@
+test_list = ['gfg', 'is', 'best', 'for', 'geeks']
+print("The original list : " + str(test_list))
+min_len = 99999
+for ele in test_list:
+	if len(ele) < min_len:
+		min_len = len(ele)
+		res = ele
+print("Minimum length string is : " + res)
